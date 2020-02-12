@@ -1,0 +1,100 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "b2827f5d-7e3c-44df-998b-7bd6b9e480dc": {
+        "id": "b2827f5d-7e3c-44df-998b-7bd6b9e480dc",
+        "parent": null,
+        "name": "IrelndInduu",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "432eab8e-54b6-4749-b558-e7b0a9444b85"
+        ],
+        "isRemovable": false,
+        "filePath": "IrelndInduu"
+      },
+      "432eab8e-54b6-4749-b558-e7b0a9444b85": {
+        "id": "432eab8e-54b6-4749-b558-e7b0a9444b85",
+        "parent": "b2827f5d-7e3c-44df-998b-7bd6b9e480dc",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "IrelndInduu/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigeuWest1Irelndteststgingindany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "b2827f5d-7e3c-44df-998b-7bd6b9e480dc",
+    "openFiles": [
+      "432eab8e-54b6-4749-b558-e7b0a9444b85"
+    ],
+    "currentFileId": "432eab8e-54b6-4749-b558-e7b0a9444b85",
+    "resources": {
+      "apigeuWest1Irelndteststgingindany": {
+        "name": "apigeuWest1Irelndteststgingindany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "eu-west-1",
+          "apiMode": 0,
+          "apiName": "Irelnd",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "test/stging/ind",
+          "resourcePath": "/test/stging/ind",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Test",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "IrelndInduu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "eu-west-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1581497255343
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "IrelndInduu",
+      "url": "https://github.com/Indunil1992/IrelndInduu"
+    }
+  }
+}
